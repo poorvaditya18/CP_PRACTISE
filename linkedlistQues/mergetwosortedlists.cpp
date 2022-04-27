@@ -4,12 +4,14 @@
 
 // Return the head of the merged linked list.
 
-#include<iostream>
-using namespace std;
+
 
 // this can be done using two method : 
 // 1 . dummy node this will use extra space 
 // 2.  changing of the node->next 
+
+#include<iostream>
+using namespace std;
 
 struct ListNode {
       int val;
